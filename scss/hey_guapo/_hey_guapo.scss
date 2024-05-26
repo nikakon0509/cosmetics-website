@@ -1,0 +1,44 @@
+.stroka{
+  
+
+    
+
+    .hr{
+        @extend %hr;
+        background: linear-gradient(to right, rgb(25, 247, 255), rgb(255, 0, 195) 90%);
+        
+    }
+
+    
+    .hr1{
+        @extend %hr;
+        background: linear-gradient(to right,rgb(255, 0, 195), rgb(25, 247, 255) 90%);
+        
+    }
+
+    .osn_texti{
+        @extend %display;
+    
+        .texti{
+            text-transform: uppercase;
+            font-size: 11px;
+            margin: auto;
+            font-size: 12px;
+            margin-bottom: 3%;
+            margin-top: 3%;
+            border: 2px solid black;
+            padding: 10px 90px;
+        }
+
+        .texti1{
+            text-transform: uppercase;
+            font-size: 11px;
+            margin: auto;
+            font-size: 12px;
+            margin-bottom: 3%;
+            margin-top: 3%;
+            border: 2px solid black;
+            padding: 10px 90px;
+        }
+    }
+}

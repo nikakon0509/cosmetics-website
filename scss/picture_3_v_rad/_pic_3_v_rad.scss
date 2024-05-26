@@ -1,0 +1,45 @@
+.picture_3_part1{
+    @extend %display;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:2%;
+
+    .pic_1, .pic_2, .pic_3{
+        @extend %picture_3_part_1;
+        width: 350px;
+
+        & img{
+            width: 100%;
+        }
+    }
+}
+
+.picture_3_part2{
+    @extend %display;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+
+    .pic_4, .pic_5, .pic_6{
+        @extend %picture_3_part_1;
+        width: 350px;
+
+        & img{
+            width: 100%;
+        }
+    }
+}
+
+.osn_textic{
+    @extend %display;
+
+    .textic{
+        text-transform: uppercase;
+        font-size: 11px;
+        margin: auto;
+        margin-bottom: 4%;
+        margin-top: 2%;
+        border: 2px solid black;
+        padding: 10px 110px;
+    }
+}

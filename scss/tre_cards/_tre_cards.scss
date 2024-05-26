@@ -1,0 +1,81 @@
+.tri_cards{
+    @extend %display;
+    
+    .card_1{
+        position: relative;
+        // padding-right: 10px;
+        margin-left:3%;
+        
+        
+
+        .on_photo {
+            position: absolute;
+            top: 250px;
+            
+            // width: 100%;
+            font-size: 18px;
+            margin: -116px 39px;
+            color:rgb(198, 198, 198);
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .on_photo span{
+            color:#ffffff;
+            font-size: 12px;
+            
+        }
+
+        .on_photo2{
+            position: absolute;
+            top: 250px;
+            left: 0;
+            // width: 100%;
+            font-size: 13px;
+            margin: -20px 39px;
+            color:rgb(198, 198, 198);
+            font-weight: 100;
+        }    
+        
+    }
+    
+}
+
+.osn_text{
+    @extend %display;
+
+    .text{
+        @extend %osn_text;
+    }
+}
+
+.row{
+    
+    @extend %display;
+
+    .card_2, .card_3{
+        
+        padding-left: 16px;
+       
+
+       & p:nth-of-type(1){
+        text-transform: uppercase;
+        font-size: 8px;
+        color: #919191;
+       }
+
+       & p:nth-of-type(2){
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        
+       }
+
+       & p:nth-of-type(3){
+        text-transform: uppercase;
+        font-size: 15px;
+        
+       }
+    }
+}

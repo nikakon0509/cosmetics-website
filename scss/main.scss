@@ -1,0 +1,25 @@
+@import "menu/menu";
+@import "templates/templates";
+@import "lips/lips";
+@import "tre_cards/tre_cards";
+@import "picture_3_v_rad/pic_3_v_rad";
+@import "tri_photki/tri_ph";
+@import "hey_guapo/hey_guapo";
+@import "footer/footer";
+
+body{
+    margin: auto;
+    display: block;
+    background-color: #F4F6F5;
+    font-family: 'Termina';
+    color: #2C2D35;
+    font-weight: 100;
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    
+}
+

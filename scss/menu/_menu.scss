@@ -1,0 +1,40 @@
+header{
+  background-color: #ffffff;
+  @extend %display;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+
+  .logo1{
+    @extend %display;
+    margin-left: 3%;
+
+  }  
+
+  .line_header{
+    display: none;
+  }
+
+  
+  .navigation{
+    margin-left: auto;
+    margin-right: 21%;
+    @extend %display;
+
+    & p, & i{
+        margin: auto;
+        font-size: 15px;
+    }
+
+    & p:first-child{
+        margin-left: -70%;
+    }
+  }
+
+  img{
+    margin-right: 10%;
+  }
+
+  .icons{
+    margin-right: 3%;
+  }
+}

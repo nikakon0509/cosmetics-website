@@ -1,0 +1,24 @@
+.picture_3_1{
+    @extend %display;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:2%;
+
+    .pic_11, .pic_12, .pic_13{
+        @extend %picture_3_part_1;
+        width: 350px;
+
+        // & img{
+        //     width: 100%;
+        // }
+
+        .big_pic{
+            position: absolute;
+        }
+
+        .sm_pic{
+            position: relative;
+            margin: 190px 65px 10px 65px;
+        }
+    }
+}
